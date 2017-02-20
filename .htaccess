@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^dyscatalog\.constraintsolver\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dyscatalog\.constraintsolver\.com$
+RewriteRule ^/?$ "https\:\/\/www\.constraintsolver\.com\/dyscatalog\/\#\/" [R=301,L]
+
